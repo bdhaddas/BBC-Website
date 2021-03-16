@@ -1,0 +1,263 @@
+/* Styling for Nav Bar 1 */
+#navone {
+    background-color: white;
+    color: black;
+}
+
+.nav-link:hover {  
+    position: static;
+}
+
+.Newsbar {
+    background-color: #bb1919 !important;
+    color: white;
+}
+
+.regionlist:hover {
+    border-bottom: solid 4px brown;
+}
+
+.Newsbar h1 {
+    margin-bottom: 0px;
+}
+
+.bg-danger {
+    background-color: #bb1919!important;
+}
+
+.newstabs {
+    color: white !important;    
+}
+
+.newstabs:hover {
+    border-bottom: 4px solid white;
+    position: static;
+}
+
+a[href*="sign-in"]:hover {
+    border-bottom: 4px solid blue;
+}
+
+a[href*="home"]:hover {
+    border-bottom: 4px solid black;
+}
+
+a[href*="news"]:hover {
+    border-bottom: 4px solid maroon;
+}
+
+a[href*="sports"]:hover {
+    border-bottom: 4px solid yellow;
+}
+
+a[href*="weather"]:hover {
+    border-bottom: 4px solid #88ccee;
+}
+
+a[href*="iplayer"]:hover {
+    border-bottom: 4px solid #ed3d7d;
+}
+
+a[href*="sounds"]:hover {
+    border-bottom: 4px solid #ff4900;
+}
+
+a[href*="cbbc"]:hover {
+    border-bottom: 4px solid darkgreen;
+}
+
+/* Styling for Nav bar 2 */
+
+/* Styling for Nav bar 3 */
+
+
+
+/*bottom list styling navbarbottom */
+
+.navbarbd {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbarbd a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbarbd a:hover {
+    background: #f1f1f1;
+    color: black;
+}
+
+.navbarbd a.active {
+    background-color: #0000;
+    color: white;
+}
+
+.main {
+    padding: 16px;
+    margin-bottom: 30px;
+}
+
+/* navdrop hover */
+.more:hover {
+    background-color: black;
+}
+/*Titles for new sections*/
+
+h3 {
+    position:relative;
+    text-align:start;
+}
+h3 span {
+    display:inline-block;
+    padding:0 10px;
+    background:#fff;
+}
+
+h3:before {
+    content:"";
+    display:block;
+    position:absolute;
+    z-index:-1;
+    left:0;
+    right:0;
+    top:50%;
+    height:1px;
+    background:black;
+}
+
+
+ /* drop down and search   */
+
+#bd_nav_link {
+    background-image: url(https://static.files.bbci.co.uk/account/id-cta/1.53.19/style/img/idcta-icon-sprite.svg);
+    background-size: 22px;
+    background-position: 6px 8px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+#bd_nav-item {
+    width: 100px;
+    padding-left: 35px;
+}
+#navbarDropdown2 {
+    color: white;
+}
+.bd_drawer {
+    background-color: #0568b1;
+    color: white!important;
+    display: none;
+}
+.id4-cta-register {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.id4-cta-button {
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+#bd_drawertitle {
+    font-family: Helvetica,Arial,freesans,sans-serif;
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 0px;
+    line-height: 1.0;
+    padding: 10px 0px 7px 0px;
+}
+
+.notifications__container {
+    padding-left: 10px;
+}
+
+.notifications-cta {
+    padding: 8px 10px 12px 0;
+}
+
+#bd_nav_link_2 {
+    background-image: url(https://static.files.bbci.co.uk/account/id-cta/1.53.19/style/img/idcta-icon-sprite.svg);
+    background-size: 22px;
+    background-position: 6px 8px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+/* Cards */
+
+.card {
+    border: white!important;
+    
+}
+
+.bg-img {
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-repeat:no-repeat;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.child1 {
+  grid-column: span 3;
+}
+
+.child {
+  grid-row: 1/span 2;
+  grid-column: 5;
+}
+
+.sidenews {
+  border-bottom: solid 1px #cccccc;
+}
+
+
+
+
+.img1 {
+    background-image: url('https://ichef.bbci.co.uk/news/800/cpsprodpb/7EE7/production/_115378423_shoppers2_pa.jpg');
+  background-size: 100%;
+}
+
+.img2{
+    background-image: url("https://ichef.bbci.co.uk/news/240/cpsprodpb/2E9C/production/_116823911_driversgetty.jpg");
+    background-size: 100%;
+}
+
+.img3{
+    background-image: url("https://ichef.bbci.co.uk/news/800/cpsprodpb/A6CD/production/_116810724_065245082-1.jpg");
+    background-size: 100%;
+}
+
+.img4{
+    background-image: url("https://ichef.bbci.co.uk/news/800/cpsprodpb/139D/production/_112812050_20531451-high_res-i-may-destroy-you-1.jpg");
+    background-size: 100%;
+}
+
+.img5{
+    background-image: url("https://ichef.bbci.co.uk/news/800/cpsprodpb/90E3/production/_116819073_9c62dcf0-0f38-4b25-a8d9-ae0565a5ad58.jpg");
+    background-size: 100%;
+}
+
+.img6{
+    background-image: url("https://ichef.bbci.co.uk/news/800/cpsprodpb/A6CD/production/_116810724_065245082-1.jpg");
+    background-size: 100%;
+}
